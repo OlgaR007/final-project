@@ -10,6 +10,7 @@
 <link href="https://fonts.googleapis.com/css2?family=PT+Mono&family=Rubik:ital,wght@0,300;0,400;0,500;1,500&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="src/style.css" />
+ <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   </head>
   <body>
     <div class="container "> 
@@ -27,7 +28,7 @@
           </form>
 
         <div class="city">
-          <h2> <strong> Gdynia, Poland </strong></h2>
+          <h2> <strong id="city"> Gdynia, Poland </strong></h2>
           <h5>Sunday 16 June 12:00</h5> 
         </div>
 
@@ -40,8 +41,8 @@
               </div>
               
                  <div class="col-0">
-                 <p class="degree"> <strong> 27</strong> <span class="cel-far">°C | °F </span>  </p>
-                   <p class="description "> Mostly Rainy </p> 
+                 <p class="degree"> <strong id="current-temperature"> 27</strong> <span class="cel-far"> °C | °F </span>  </p>
+                   <p class="description " id="weather-description"> Mostly Rainy </p> 
 
               
                 </div>
@@ -116,5 +117,6 @@
       </div>
     
     </div>
+    <script src="src/app.js"></script>
   </body>
 </html>
