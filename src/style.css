@@ -52,7 +52,9 @@ h5 {
   margin-top: 1px;
 }
 .cel-far {
-  font-size: 20px;
+  font-size: 16px;
+  position: relative;
+  top: -17px;
 }
 .col-1 {
   color: #fbfffb;
@@ -88,7 +90,7 @@ h5 {
   text-align: left;
 }
 .precipitation {
-  margin-bottom: -10px;
+  margin-bottom: -15px;
   margin-top: 1px;
 }
 .row-2 {
