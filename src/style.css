@@ -51,12 +51,27 @@ h5 {
   margin-right: 200px;
   margin-top: 1px;
 }
-.cel-far {
+.cel {
   font-size: 16px;
   position: relative;
   top: -17px;
   color: #fbfffb;
 }
+.far {
+  font-size: 16px;
+  position: relative;
+  top: 1px;
+  color: #fbfffb;
+  font-weight: bold;
+}
+.active {
+  font-size: 16px;
+  position: relative;
+  top: 1px;
+  color: #fbfffb;
+  font-weight: bold;
+}
+
 .col-1 {
   color: #fbfffb;
   margin-left: 200px;
