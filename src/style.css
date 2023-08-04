@@ -79,6 +79,7 @@ h5 {
 .description {
   font-size: 15px;
   margin-top: -25px;
+  text-transform: capitalize;
 }
 .col-2 {
   color: #fbfffb;
