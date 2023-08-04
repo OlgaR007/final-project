@@ -1,9 +1,11 @@
 main {
   font-family: "PT Mono", monospace;
   background-color: #1560bd;
+  border: 1px;
   border-radius: 5px;
   width: 1200px;
-  height: 800px;
+  height: 650px;
+  margin: 5px auto;
 }
 
 .search-city {
@@ -108,4 +110,7 @@ h5 {
 }
 .day-temp {
   padding-top: 20px;
+}
+.link {
+  margin: 5px 47px;
 }
