@@ -46,7 +46,15 @@ function dispalyTemperature(response) {
   iconElement.setAttribute("alt", response.data.weather[0].description);
 }
 let apiKey = "c73d0606c6de7b8ca937dc74e3a4c75f";
-let city = "Odesa";
+let city = "Gdynia";
 let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
 axios.get(apiUrl).then(dispalyTemperature);
+
+function search(event) {
+  event.preventDefault();
+  let cityInputElement = document.querySelector("#search-button");
+  console.log(cityInputElement);
+}
+let form = document.querySelector("#search-form");
+form.addEventListener("submit", search);
