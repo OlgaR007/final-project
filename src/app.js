@@ -45,16 +45,22 @@ function dispalyTemperature(response) {
   );
   iconElement.setAttribute("alt", response.data.weather[0].description);
 }
-let apiKey = "c73d0606c6de7b8ca937dc74e3a4c75f";
-let city = "Gdynia";
-let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
-axios.get(apiUrl).then(dispalyTemperature);
-
-function search(event) {
-  event.preventDefault();
-  let cityInputElement = document.querySelector("#search-button");
-  console.log(cityInputElement);
+function search(city) {
+  let apiKey = "c73d0606c6de7b8ca937dc74e3a4c75f";
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+  axios.get(apiUrl).then(dispalyTemperature);
 }
+function handleSubmit(event) {
+  event.preventDefault();
+  let cityInputElement = document.querySelector("#city-input");
+  search(cityInputElement.value);
+}
+
+search("New York");
+//let cityInputElement = document.querySelector("#city-input");
+//let apiKey = "c73d0606c6de7b8ca937dc74e3a4c75f";
+//let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${cityInputElement}&appid=${apiKey}&units=metric`;
+
 let form = document.querySelector("#search-form");
-form.addEventListener("submit", search);
+form.addEventListener("submit", handleSubmit);
