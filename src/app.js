@@ -1,5 +1,4 @@
 function formatDate(timestamp) {
-  dateElement.innerHTML = formatDate(response.data.dt * 1000);
   let date = new Date(timestamp);
   let hours = date.getHours();
   if (hours < 10) {
@@ -37,6 +36,7 @@ function dispalyTemperature(response) {
   humidityElement.innerHTML = response.data.main.humidity;
   descriptionElement.innerHTML = response.data.weather[0].description;
   cityElement.innerHTML = response.data.name;
+  dateElement.innerHTML = formatDate(response.data.dt * 1000);
   temperatureElement.innerHTML = Math.round(celsiusTemperature);
 
   iconElement.setAttribute(
