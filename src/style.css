@@ -98,6 +98,24 @@ h5 {
   text-transform: capitalize;
   margin-left: -50px;
 }
+.col-3 {
+  color: #fbfffb;
+  font-size: large;
+  background-color: #203878;
+  width: 130px;
+  height: 200px;
+  border: 2px;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: inline-block;
+  margin-top: 40px;
+  margin-left: 60px;
+}
+.tepm-min {
+  opacity: 0.5;
+}
 .col-2 {
   color: #fbfffb;
   margin-left: 685px;
@@ -118,21 +136,6 @@ h5 {
   justify-content: center;
 }
 
-.col-3 {
-  color: #fbfffb;
-  font-size: large;
-  background-color: #203878;
-  width: 130px;
-  height: 200px;
-  border: 2px;
-  border-radius: 5px;
-  margin-left: 20px;
-  margin-right: 20px;
-  text-align: center;
-  margin-top: 80px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
 .day-temp {
   padding-top: 20px;
 }
