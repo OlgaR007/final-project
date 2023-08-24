@@ -103,7 +103,7 @@ h5 {
   font-size: large;
   background-color: #203878;
   width: 130px;
-  height: 200px;
+  height: 230px;
   border: 2px;
   border-radius: 5px;
   text-align: center;
@@ -111,7 +111,7 @@ h5 {
   padding-bottom: 20px;
   display: inline-block;
   margin-top: 40px;
-  margin-left: 90px;
+  margin-left: 60px;
 }
 .temp-min {
   opacity: 0.5;
@@ -132,5 +132,5 @@ h5 {
 }
 
 .link {
-  margin: 5px 47px;
+  margin: 5px 170px;
 }
