@@ -15,7 +15,7 @@ main {
 .search-city {
   font-family: "PT Mono", monospace;
   width: 230px;
-  height: 28px;
+  height: 30px;
   text-align: center;
   border-radius: 5px;
   border: 2px solid #fbfffb;
@@ -23,7 +23,7 @@ main {
   color: #fdfbfe;
   margin-right: 5px;
   margin-left: 685px;
-  margin-top: 10px;
+  margin-top: -50px;
 }
 
 .search-button {
@@ -40,15 +40,15 @@ main {
 
 h2 {
   color: #fbfffb;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 70px;
+  margin-right: 100px;
   margin-top: -50px;
   margin-bottom: 1px;
 }
 h5 {
   color: #fbfffb;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 70px;
+  margin-right: 100px;
   margin-top: 1px;
 }
 .cel {
